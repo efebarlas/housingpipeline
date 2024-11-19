@@ -1,0 +1,26 @@
+.pipeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.stage {
+  flex: 1;
+  min-width: 150px;
+  margin: 0 10px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.stage h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.stage p {
+  font-size: 0.9em;
+}
